@@ -1925,7 +1925,7 @@ glutInit()
 glutInitWindowSize(W_Width, W_Height)  # window size
 glutInitWindowPosition(0, 0)
 glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB)
-wind = glutCreateWindow(b"Grand Theft Auto VII")
+wind = glutCreateWindow(b"Escape Room")
 init()
 glutSpecialFunc(specialKeyListener)
 glutDisplayFunc(showScreen)
